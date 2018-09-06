@@ -1,0 +1,61 @@
+/* CSS for my website */
+*{
+  margin: 0;
+  border: none;
+  padding: none;
+  font-family: Gill Sans;
+}
+
+.headimage{
+  background: black;
+  background-size: 100%;
+  height: 25px;
+}
+
+.name{
+  font-size: 13px;
+  padding: 10px 10px;;
+  color: white;
+  margin: 0;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+body{
+  background: url('../images/back_table.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+ul{
+  padding-top: 8px;
+  list-style-image: url('../images/prompt2.jpg');
+}
+
+li{
+  font-size: 18px;
+}
+
+.navigation{
+  font-size: 15px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: inherit;
+  height: 165px;
+  float: left;
+  background-color: #FFFFFF99;
+}
+
+/* .heading h1{
+  font-size: 50px;
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url('../images/code.jpg');
+  text-align: center;
+  font-style: italic;
+} */

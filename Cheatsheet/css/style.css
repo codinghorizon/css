@@ -4,6 +4,7 @@
   padding: 0;
 } */
 
+/* Main area of the page */
 body{
   background-color: #FFFFFF;
   color: #000000;
@@ -16,16 +17,15 @@ body{
   line-height: 1.2em;
 }
 
+/* For Links and stuff */
 a{
   text-decoration: none;
 }
-
-a:hover{
+.box-2 a:hover{
   color:green;
 }
-
-a:visited{
-  color: red;
+.box-2 a:visited{
+  color: blue;
 }
 
 /* Div "container" */
@@ -37,9 +37,20 @@ a:visited{
   margin-top: 10px;
 }
 
+/* Apply to all buttons */
+.button{
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
 /* Div box-1 */
 .box-1{
-  background-color: #222;
+  background-color: #333;
   color: #FFF;
 
   /* Border of a object box */
@@ -61,16 +72,18 @@ h1{
   font-weight: 200;
 }
 
+/* Second box */
 .box-2{
   padding: 10px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: blue;
-  background-color: #99000090;
+  color: #444;
+  background-color: #fff;
   border-style: dotted;
 }
 
+/* Categories / Listing */
 .categories{
   border: 1px #000 solid;
   padding: 0;
@@ -85,6 +98,22 @@ h1{
 
 .categories li{
   /* padding-bottom: 5px; */
-  /* border-bottom: 1px dotted #333; */
+  border-bottom: 1px dotted #333;
   list-style-image: url('../images/checkmark.png');
+}
+
+.my-form{
+  padding: 15px;
+}
+
+.form-group{
+  padding-bottom: 15px;
+}
+
+.my-form label{
+  display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+  padding: 8px;
+  width: 100%;
 }
