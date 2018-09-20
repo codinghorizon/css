@@ -1,0 +1,62 @@
+*{
+  font-family: Helvetica;
+  border-radius: 5px;
+}
+
+.headimage{
+  background: url('../images/horizon.jpg');
+  background-size: 100%;
+  height: 25px;
+}
+
+.name{
+  font-size: 13px;
+  padding: 10px 10px;;
+  color: white;
+  margin: 0;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+body{
+  background: url('../images/coding.jpg') no-repeat;
+  background-size: cover;
+}
+
+ul{
+  margin-top: 10px;
+  padding: 0px;
+  list-style: none;
+  color: white;
+  text-align: center;
+}
+
+ul li{
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5) ;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  margin: 2px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul li a:hover {
+  background-color: green;
+}
+
+ul li ul li{
+  display: none;
+}
+
+ul li:hover ul li{
+  display: block;
+  text-align: center;
+}
