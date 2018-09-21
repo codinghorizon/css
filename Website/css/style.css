@@ -1,61 +1,112 @@
-/* CSS for my website */
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
 *{
-  margin: 0;
-  border: none;
-  padding: none;
-  font-family: Gill Sans;
+  font-family: Dosis;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
-.headimage{
-  background: black;
+/* .headimage{
+  background: url('../images/horizon.jpg');
   background-size: 100%;
   height: 25px;
+} */
+
+.head{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .name{
-  font-size: 13px;
-  padding: 10px 10px;;
-  color: white;
+  font-size: 30px;
+  padding: 10px 10px;
+  /* color: rgba(150, 150, 150, 1); */
+  color: grey;
   margin: 0;
-  font-style: italic;
-  font-weight: lighter;
+  width: 180px;
+  font-weight: bold;
+  float: left;
 }
 
-body{
-  background: url('../images/back_table.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-ul{
-  padding-top: 8px;
-  list-style-image: url('../images/prompt2.jpg');
-}
-
-li{
-  font-size: 18px;
+.name a{
+  color: inherit;
+  text-decoration: none;
 }
 
 .navigation{
-  font-size: 15px;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 15px;
-  width: inherit;
-  height: 165px;
-  float: left;
-  background-color: #FFFFFF99;
+  float: right;
+  margin: 5px 15px;
 }
 
-/* .heading h1{
-  font-size: 50px;
+body{
+  background: url('../images/horizon3.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-image: url('../images/code.jpg');
+}
+
+.space{
+  display: block;
+  line-height: 300px;
+}
+
+ul{
+  margin: 0;
+  list-style: none;
+  color: white;
   text-align: center;
-  font-style: italic;
-} */
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+ul li{
+  float: left;
+  width: 190px;
+  line-height: 40px;
+  text-align: center;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul li a:hover {
+  /* background-color: rgba(255, 0, 0, .5); */
+  background-color: rgba(150, 150, 150, 0.5);
+  color: white;
+  opacity: .8;
+}
+
+ul li ul li{
+  display: none;
+  margin: 0px;
+}
+
+ul li:hover ul li{
+  display: block;
+}
+
+ul li:hover ul{
+  height: 150px;
+}
+
+.welcome{
+  padding: 15px;
+  background-color: rgba(150, 150, 150, .2);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.hey{
+  font-size: 40px;
+}
+
+.text a{
+  color: rgba(30, 30, 30, 1.0);
+}
